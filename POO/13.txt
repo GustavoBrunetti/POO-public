@@ -1,0 +1,18 @@
+diferenças entre sobrecarregamento e sobreposicao:
+
+Sobrecarregamento é quando cria-se uma nova versão de um método já existente em sua classe, utilizando parâmetros diferentes.
+
+Sobreposição é utilizado quando cria-se um método já existente na classe superior a sua, onde o método criado na nova classe
+tem prioridade.
+
+A similaridade entre esses dois conceitos é de que ambos estão sobrescrevendo um método para auxiliar a classe,
+porém um sobrepõe o metodo no qual ele reescreve e o outro muda a assinatura,
+de tal forma que tanto o sobrecarregado quanto o novo método podem ser utilizados,
+já na sobreposição, somente o método sobreposto será utilizado para a classe na qual ocorreu a sobreposição.
+
+a vinculação dinâmica permite alterar o valor da variável ou função para diferentes objetos,
+já a estática mantém um mesmo valor para qualquer objeto criado de determinada classe.
+
+Sim, porém isso se torna incoveniente pois sempre que formos criar uma classe que poderia receber uma herança, 
+mas ao inves disso utilizamos agregação, é necessário reescrever todo o código pra a classe criada,
+já na herança é possível reutilizar tudo que foi criado na classe mãe.
